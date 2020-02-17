@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoofdstuk 6</title>
+    <link rel="stylesheet" type="text/css" href="formulier.css">
+</head>
+<body>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <h2>Burton Education</h2>
+    <div class="form-group">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" name="voornaam" id="voornaam">
+    </div>
+    <div class="form-group">
+        <label for="tussenvoegsel">Tussenvoegsel:</label>
+        <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+    </div>
+    <div class="form-group">
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" name="achternaam" id="achternaam">
+    </div>
+    <div class="form-group">
+        <label>Geslacht:</label>
+    </div>
+    <div class="form-group">
+        <input type="radio" name="geslacht" id="man" value="man"man>
+        <label for="man">Man</label>
+    </div>
+    <div class="form-group">
+        <input type="radio" name="geslacht" id="vrouw" value="vrouw"man>
+        <label for="vrouw">Vrouw</label>
+    </div>
+    <div class="form-group">
+        <label>Kleur ogen:</label>
+        <select>
+            <option value="blauw">Blauw</option>
+            <option value="groen">Bruin</option>
+            <option value="bruin">Groen</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Geboortedatum:</label>
+        <input type="date">
+    </div>
+    <div class="form-group">
+        <label>Omschrijving:</label>
+        <textarea></textarea>
+    </div>
+    <div class="form-group">
+        <label>Lekker eten:</label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="sperziebonen" value="Sperziebonen">
+        <label for="sperziebonen">Sperziebonen</label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="aardappelen" value="Aardappelen">
+        <label for="aardappelen">Aardappelen</label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="hamburger" value="Hamburger">
+        <label for="hamburger">Hamburger</label>
+    </div>
+    <div class="form-group">
+        <input type="button" id="cancel" value="Annuleren">
+        <input type="submit" id="submit" name="Submit">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+div.form-group {
+    width: 300px;
+    padding: 10px;
+}
+input {
+    float: right;
+}
+select {
+    float: right;
+}
+textarea {
+    float: right;
+}
+
+
